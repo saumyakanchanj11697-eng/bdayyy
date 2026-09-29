@@ -1,1 +1,140 @@
 
+
+html = r'''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Vanshika.</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Special+Elite&display=swap');
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#071321;color:#e9edf3;font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.28;background-image:radial-gradient(#b9c9da 1px,transparent 1px);background-size:80px 80px}
+.wrap{max-width:1000px;margin:auto;padding:0 24px}
+.hero{min-height:100vh;display:grid;place-items:center;text-align:center}
+.hero-card{max-width:720px;padding:50px 30px}
+.kicker,.chapter-label{font:12px "Special Elite",monospace;letter-spacing:2px;text-transform:uppercase;color:#a9c2db}
+h1{font-size:clamp(52px,10vw,100px);font-weight:500;line-height:.88;margin:22px 0}
+.hero p{font-size:22px;color:#bfcbd7;margin:25px auto 35px}
+.link-btn{border:1px solid #718ba5;background:transparent;color:#edf2f7;padding:13px 22px;font:500 15px "Cormorant Garamond",serif;cursor:pointer;transition:.25s;text-decoration:none;display:inline-block}
+.link-btn:hover{background:#14283d;transform:translateY(-2px)}
+section{padding:110px 0;border-top:1px solid #1b2d40}
+.chapter{font-size:58px;line-height:1;margin:14px 0 30px;font-weight:500}
+.intro{font-size:21px;line-height:1.6;color:#c6d0db;max-width:700px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:45px}
+.card{border:1px solid #263c52;padding:27px;background:rgba(10,25,40,.72);transition:.3s}
+.card:hover{transform:translateY(-4px);border-color:#67809a}
+.card h3{font-size:27px;margin:0 0 10px;font-weight:600}
+.card p{font-size:18px;line-height:1.5;color:#c6d0db;margin:0}
+.typebox{margin-top:35px;padding:30px;border-left:2px solid #718ba5;font:16px/2 "Special Elite",monospace;color:#c8d5e2;background:rgba(255,255,255,.025)}
+.analysis{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:38px}
+.stat{border:1px solid #263c52;padding:22px}
+.stat small{display:block;font:11px "Special Elite",monospace;color:#829db7;letter-spacing:1px;margin-bottom:8px}
+.stat strong{font-size:25px;font-weight:500}
+.full{grid-column:1/-1}
+.quote{font-size:29px;line-height:1.35;text-align:center;margin:55px auto;max-width:720px;font-style:italic;color:#d9e1e9}
+.letter{max-width:760px;margin:40px auto 0;padding:42px;border:1px solid #344b62;background:#0b1a2a;box-shadow:0 15px 50px rgba(0,0,0,.25)}
+.letter p{font-size:20px;line-height:1.7;margin:0 0 18px}
+.signature{margin-top:30px;font-size:24px}
+.final{min-height:80vh;display:grid;place-items:center;text-align:center}
+.final h2{font-size:clamp(48px,9vw,90px);font-weight:500;margin:15px 0}
+.final p{font-size:20px;color:#aebdca}
+footer{text-align:center;padding:25px;color:#667d94;font:11px "Special Elite",monospace;letter-spacing:1px}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .8s ease,transform .8s ease}
+.reveal.show{opacity:1;transform:none}
+@media(max-width:650px){.grid,.analysis{grid-template-columns:1fr}.full{grid-column:auto}.chapter{font-size:45px}.letter{padding:25px}}
+</style>
+</head>
+<body>
+<header class="hero">
+<div class="hero-card reveal">
+<div class="kicker">a small digital collection</div>
+<h1>For Vanshika.</h1>
+<p>A little something you found. Open it slowly.</p>
+<a class="link-btn" href="#welcome">Open the envelope →</a>
+</div>
+</header>
+
+<main class="wrap">
+<section id="welcome" class="reveal">
+<div class="chapter-label">Chapter I</div>
+<h2 class="chapter">Welcome, son</h2>
+<p class="intro">For the girl who is somehow simultaneously social, chaotic, friendly, and the person everyone can go to when they need actual advice. Welcome to your very own little corner of the internet.</p>
+<div class="quote">“Some people just become part of the story without even trying.”</div>
+</section>
+
+<section class="reveal">
+<div class="chapter-label">Chapter II</div>
+<h2 class="chapter">Kuch shbd</h2>
+<p class="intro">You write. Everything. Thoughts, stories, ideas, probably things that didn't even need to be written down — but somehow deserved a document anyway.</p>
+<div class="typebox">writer.exe — running...<br>thoughts → words<br>ideas → paragraphs<br>random thought → “wait, I should write this”</div>
+</section>
+
+<section class="reveal">
+<div class="chapter-label">Chapter III</div>
+<h2 class="chapter">Anime ka kona</h2>
+<p class="intro">Every good archive needs a corner for the fictional worlds that somehow become real enough to care about.</p>
+<div class="grid">
+<div class="card"><h3>✦ The watchlist</h3><p>Reserved for the next obsession.</p></div>
+<div class="card"><h3>✦ The favourites</h3><p>A space for characters who permanently occupy brain space.</p></div>
+</div>
+</section>
+
+<section class="reveal">
+<div class="chapter-label">Chapter IV</div>
+<h2 class="chapter">Character Analysis</h2>
+<p class="intro">After extensive observation, several questionable eye-contact exchanges, and absolutely no scientific methodology, the following character profile has been assembled.</p>
+<div class="analysis">
+<div class="stat"><small>CLASSIFICATION</small><strong>Social Chaos / Literary Entity</strong></div>
+<div class="stat"><small>ALIGNMENT</small><strong>Friendly, but chaotic</strong></div>
+<div class="stat"><small>PRIMARY SKILL</small><strong>Writing + English + Editing</strong></div>
+<div class="stat"><small>SECONDARY SKILL</small><strong>Giving suspiciously good advice</strong></div>
+<div class="stat full"><small>COMMUNICATION SYSTEM</small><strong>One look. Both understand. Conversation complete.</strong></div>
+</div>
+<div class="grid">
+<div class="card"><h3>👁 The Unspoken Language</h3><p>Random eye contact that somehow communicates an entire paragraph. Both people see the same thing, think the same thing, look at each other, and immediately know. No explanation required.</p></div>
+<div class="card"><h3>🫡 The Advice Department™</h3><p>Friendly. Reliable. Somehow equipped with advice for every situation. Official position: best friend and part-time life consultant.</p></div>
+<div class="card"><h3>⚡ Known Interaction</h3><p><strong>[ SLAP HER LEG ]</strong><br>Context: classified.<br>Explanation: unnecessary.</p></div>
+<div class="card"><h3>✦ Hidden Trait</h3><p>She is genuinely pretty and ridiculously talented — and may not fully understand just how much of both she has.</p></div>
+</div>
+<div class="quote">Final analysis: highly talented. highly friendly. mildly chaotic. excellent friend.</div>
+</section>
+
+<section class="reveal">
+<div class="chapter-label">Chapter V</div>
+<h2 class="chapter">A Letter</h2>
+<div class="letter">
+<p>Hey bro!!!</p>
+<p>So, first of all, 29th September 2010, the day mah best friend was born!!!!!!!!!!</p>
+<p>Must say I am lucky asf that I came to this school and met you. I really love you and just stop underestimating yourself — trust me, you shine when you are confident.</p>
+<p>Just keep doing your thing, be yourself and give me good advice and be a lesbian like you are.</p>
+<p>I am more than thankful that I have a friend like you in my life.</p>
+<p>So enjoy your bday, and keep in mind if anyone ever tries to do anything or say anything to you, just tell me and I will kick that person in the balls 🥰</p>
+<p>Till then, baiii!</p>
+<div class="signature">Dandelion</div>
+</div>
+</section>
+
+<section class="final reveal">
+<div>
+<div class="chapter-label">29 September</div>
+<h2>Happy Birthday,<br>Vanshika.</h2>
+<p>Here’s to another chapter. 📖</p>
+<a class="link-btn" href="#welcome">Read it again ↑</a>
+</div>
+</section>
+</main>
+<footer>made with questionable amounts of affection & zero scientific methodology</footer>
+
+<script>
+const items=document.querySelectorAll('.reveal');
+const observer=new IntersectionObserver(entries=>{
+ entries.forEach(entry=>{if(entry.isIntersecting)entry.target.classList.add('show')});
+},{threshold:.12});
+items.forEach(item=>observer.observe(item));
+</script>
+</body>
+</html>'''
+
